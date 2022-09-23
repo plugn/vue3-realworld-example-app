@@ -1,4 +1,4 @@
-import AppLink from './AppLink.vue'
+import AppLink from '../AppLink.vue'
 
 describe('# AppLink', () => {
   it('should redirect to another page when click the link', () => {

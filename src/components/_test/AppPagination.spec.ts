@@ -1,5 +1,5 @@
 import { mount } from 'cypress/vue'
-import AppPagination from './AppPagination.vue'
+import AppPagination from '../AppPagination.vue'
 
 describe('# AppPagination', () => {
   it('should highlight current active page', () => {

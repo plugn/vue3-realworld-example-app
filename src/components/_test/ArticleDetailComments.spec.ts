@@ -2,7 +2,7 @@ import { createPinia, setActivePinia } from 'pinia'
 import { useUserStore } from 'src/store/user'
 import fixtures from 'src/utils/test/fixtures'
 import { asyncWrapper, createTestRouter } from 'src/utils/test/test.utils'
-import ArticleDetailComments from './ArticleDetailComments.vue'
+import ArticleDetailComments from '../ArticleDetailComments.vue'
 
 describe('# ArticleDetailComments', () => {
   // const mockDeleteComment = deleteComment as jest.MockedFunction<typeof deleteComment>

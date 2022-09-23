@@ -1,6 +1,6 @@
 import { createPinia, setActivePinia } from 'pinia'
 import { useUserStore } from 'src/store/user'
-import AppNavigation from './AppNavigation.vue'
+import AppNavigation from '../AppNavigation.vue'
 
 describe('# AppNavigation', () => {
   beforeEach(async () => {

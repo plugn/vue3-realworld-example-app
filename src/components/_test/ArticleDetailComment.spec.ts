@@ -1,5 +1,5 @@
 import fixtures from 'src/utils/test/fixtures'
-import ArticleDetailComment from './ArticleDetailComment.vue'
+import ArticleDetailComment from '../ArticleDetailComment.vue'
 
 describe('# ArticleDetailComment', () => {
   it('should render correctly', () => {

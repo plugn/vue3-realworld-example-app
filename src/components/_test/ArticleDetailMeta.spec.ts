@@ -2,7 +2,7 @@ import { createPinia, setActivePinia } from 'pinia'
 import type { Profile } from 'src/services/api'
 import { useUserStore } from 'src/store/user'
 import fixtures from 'src/utils/test/fixtures'
-import ArticleDetailMeta from './ArticleDetailMeta.vue'
+import ArticleDetailMeta from '../ArticleDetailMeta.vue'
 
 const editButton = 'Edit article'
 const deleteButton = 'Delete article'

@@ -1,7 +1,7 @@
 import { createPinia, setActivePinia } from 'pinia'
 import fixtures from 'src/utils/test/fixtures'
 import { asyncWrapper, createTestRouter } from 'src/utils/test/test.utils'
-import ArticleDetail from './ArticleDetail.vue'
+import ArticleDetail from '../ArticleDetail.vue'
 
 describe('# ArticleDetail', () => {
   const router = createTestRouter()
