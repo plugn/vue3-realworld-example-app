@@ -11,7 +11,7 @@
 import type { AppRouteNames } from 'src/router'
 import type { RouteParams } from 'vue-router'
 
-export interface AppLinkProps {
+interface AppLinkProps {
   name: AppRouteNames
   params?: Partial<RouteParams>
 }
